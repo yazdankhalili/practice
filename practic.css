@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  border: solid;
+  height: 150px;
+}
+
+.child {
+  border: solid red;
+  width: 50px;
+}
